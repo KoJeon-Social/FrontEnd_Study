@@ -6,13 +6,9 @@
 - 간결하게 추려낸 주요 내용
 - 웹 문서의 개요는 <mark>**헤딩**</mark>과 <mark>**섹션**</mark>으로 형성
 
-![헤딩이 잘 구성된 구조](https://prod-files-secure.s3.us-west-2.amazonaws.com/1c9e7280-29d9-4d42-8a84-eefeff4c665d/4b8c6777-2344-4868-9f1d-9bb479d60831/image.png)
-
-헤딩이 잘 구성된 구조
-
-![헤딩이 잘 구성되지 않은 구조](https://prod-files-secure.s3.us-west-2.amazonaws.com/1c9e7280-29d9-4d42-8a84-eefeff4c665d/635189a6-e71c-45eb-b4d6-1403c494d207/image.png)
-
-헤딩이 잘 구성되지 않은 구조
+|                           헤딩이 잘 구성된 구조                            |                       헤딩이 잘 구성되지 않은 구조                       |
+| :------------------------------------------------------------------------: | :--------------------------------------------------------------------: |
+| ![image](https://github.com/user-attachments/assets/29e39b87-a769-49b2-a153-20055fa9fd04) | ![image](https://github.com/user-attachments/assets/dcf0b92a-d901-45dd-876f-1cc316a1bb96) |
 
 <br />
 
@@ -35,6 +31,8 @@ Heading은 문서 개요를 형성하는 기본 아이템으로, 웹 브라우�
 ```
 
 - 위와 같이 Heading 없이는 문서의 개요 또한 없는 것이다.
+
+<br />
 
 ## Title과 Heading의 차이
 
@@ -106,7 +104,7 @@ Sectioning Content는 HTML5에서 새롭게 추가된 명세다. 명시적 개�
 
 ## **어색한 섹션**
 
-**최상위 헤딩이 없는 경우(H1 없이 H2가 있는 경우)**
+<mark>**최상위 헤딩이 없는 경우(H1 없이 H2가 있는 경우)**</mark>
 
 **HTML**
 
@@ -127,7 +125,7 @@ Sectioning Content는 HTML5에서 새롭게 추가된 명세다. 명시적 개�
 
 <br />
 
-**헤딩이 없는 경우**
+<mark>**헤딩이 없는 경우**</mark>
 
 **HTML**
 
