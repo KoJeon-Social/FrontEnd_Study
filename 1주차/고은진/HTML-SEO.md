@@ -55,7 +55,7 @@
 `-`, `|`, `:` 을 구분자로 사용한다.
 
 ```html
-Page title - Site name Page title | Site name Page title : Stie name
+Page title - Site name Page title | Site name Page title : Site name
 ```
 
 - **대시(-)** 사용 시 키워드 사이의 공간이 더 크므로 가독성이 좋다.
