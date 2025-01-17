@@ -1,0 +1,78 @@
+### SEO : 검색 엔진 최적화
+
+- 검색엔진에서 찾기 쉽도록 사이트를 개선하는 프로세스
+- 웹 페이지 검색엔진이 자료를 수집하고 순위를 매기는 방식에 맞게 웹 페이지를 구성해서 검색 결과의 상위에 나올 수 있게 함
+- 영향을 주는 요인
+  - 검색 결과 페이지 (SERP) 노출 대비 클릭률
+  - 백링크 : 다른 웹 페이지로부터 인용(링크)되는 횟수
+  - 도메인 권력(Domain authority) : 검색 결과 페이지 순위 예측 점수
+  - 페이지 타이틀
+  - 매타 디스크립션
+  - 로딩 속도
+  - SSL(https) 사용 여부
+  - 콘텐츠의 양, 질, 개연성
+  - 사용자 경험 : LCP(최대 콘텐츠 블럭 그리기), CLS(누적 배치 변경)
+    <aside>
+    💡
+
+    이런 다양한 요인들이 있지만 실제 어느 정도의 비율로 검색 결과에 반영이 되는지는 검색 엔진에서 비밀로 유지하고 있기 때문에 정확히는 알 수 없음
+
+    </aside>
+
+### 페이지 타이틀 (Page Title) : Accessibility
+
+- 화면 낭독기 사용자는 웹 페이지 접속 시 페이지 타이틀을 음성으로 전달 받고 사용자는 그 음성으로 전달 받는 내용을 듣고 자신이 원하는 페이지에 들어왔는지를 빠르게 인지할 수 있음
+- 그런데 만약 페이지 타이틀에 다 똑같은 내용의 텍스트를 집어넣는다면 화면 낭독기 사용자는 그 페이지가 내가 찾는 페이지인지 확신을 할 수 없음
+- 따라서 페이지 타이틀은 매우 중요한 요소 중 하나
+- 화면 낭독기 사용자는 불필요한 정보들을 빠르게 건너뛰기 위해 보통 속청으로 듣기 때문에 페이지 타이틀 내용은 **간결**하게, 중요한 **키워드**만 집어넣는 것이 좋음
+- 구분자
+  ```xml
+  Page title - Site name ( - )
+  Page title | Site name ( | )
+  Page title : Site name ( : )
+  ```
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/29f67a0d-cdfb-41bc-ba0a-5aa0b4aaac8a/c8491173-0adb-4e68-9f11-6d4a00a4bd2e/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/29f67a0d-cdfb-41bc-ba0a-5aa0b4aaac8a/5bbd1953-7267-4309-b0ba-8f53aececbed/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/29f67a0d-cdfb-41bc-ba0a-5aa0b4aaac8a/2e05ffec-ee36-4938-b150-cd0ae2e960f9/image.png)
+
+- JavaScript
+  - 최근 검색 엔진들은 JavaScript에 의해 동적으로 생성한 페이지 타이틀도 모두 잘 크롤링하고 있음
+- 요약 정리
+  - 본문을 가장 잘 설명하는 **키워드 중식으로**
+  - 페이지마다 **구체적**이고 **교유한** 키워드 사용
+  - 페이지마다 반복하는 키워드 최소화
+  - 구체적인 키워드를 앞으로 배치
+  - 가능한 짧게
+
+### 메타 데이터 (Metadata)
+
+- 데이터에 대한 데이터로 어떤 목적을 가지고 만들어진 데이터
+
+```html
+<!-- lang 속성은 검색 엔진이 특정 언어의 웹 페이지를 검색할 때 도움을 주기도 하고 또는 화면 낭독기 사용자들이 이 웹 페이지를 읽을 때 어떤 음성 엔진을 선택해야 하는지 힌트를 주기도 합니다. 하지만 구글에서는 현재 lang 속성을 신뢰하지 않습니다.-->
+<html lang="ko">
+  <head>
+    <!-- charset="UTF-8" 설정을 통해 전 세계의 모든 국가의 언어를 이 웹 페이지에 문제없이 표시할 수 있습니다. 'UTF-8'이 표준입니다.-->
+    <meta charset="UTF-8" />
+
+    <!-- 검색 엔진의 검색 결과 화면에 노출되는 텍스트 (사이트에 대한 설명을 표기) -->
+    <meta
+      name="descripton"
+      content="중고 거래부터 동네 정보까지, 이웃과 함께해요. 가깝고 따뜻한 당신의 근처를 만들어요."
+    />
+
+    <!-- 모바일 디바이스에서 이 웹 페이지가 모바일에서도 볼 수 있는지 , 즉 최적화 되어 있는지에 대한 정보를 검색 엔진에 제공-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 페이지 타이틀 -->
+    <title>당신 근처의 당근마켓</title>
+  </head>
+</html>
+```
+
+- 구글에 실제 검색되는 화면
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/29f67a0d-cdfb-41bc-ba0a-5aa0b4aaac8a/1f78f374-6278-4db8-a3bb-f837e26758bb/image.png)
