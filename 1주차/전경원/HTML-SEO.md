@@ -1,4 +1,4 @@
-### SEO : 검색 엔진 최적화
+# SEO : 검색 엔진 최적화
 
 - 검색엔진에서 찾기 쉽도록 사이트를 개선하는 프로세스
 - 웹 페이지 검색엔진이 자료를 수집하고 순위를 매기는 방식에 맞게 웹 페이지를 구성해서 검색 결과의 상위에 나올 수 있게 함
@@ -12,14 +12,15 @@
   - SSL(https) 사용 여부
   - 콘텐츠의 양, 질, 개연성
   - 사용자 경험 : LCP(최대 콘텐츠 블럭 그리기), CLS(누적 배치 변경)
+<hr/>
     <aside>
-    💡
-
     이런 다양한 요인들이 있지만 실제 어느 정도의 비율로 검색 결과에 반영이 되는지는 검색 엔진에서 비밀로 유지하고 있기 때문에 정확히는 알 수 없음
-
     </aside>
+    
+<br/>
+<br/>
 
-### 페이지 타이틀 (Page Title) : Accessibility
+# 페이지 타이틀 (Page Title) : Accessibility
 
 - 화면 낭독기 사용자는 웹 페이지 접속 시 페이지 타이틀을 음성으로 전달 받고 사용자는 그 음성으로 전달 받는 내용을 듣고 자신이 원하는 페이지에 들어왔는지를 빠르게 인지할 수 있음
 - 그런데 만약 페이지 타이틀에 다 똑같은 내용의 텍스트를 집어넣는다면 화면 낭독기 사용자는 그 페이지가 내가 찾는 페이지인지 확신을 할 수 없음
@@ -32,22 +33,28 @@
   Page title : Site name ( : )
   ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/29f67a0d-cdfb-41bc-ba0a-5aa0b4aaac8a/c8491173-0adb-4e68-9f11-6d4a00a4bd2e/image.png)
+![Image](https://github.com/user-attachments/assets/9baaf889-73e7-470f-97cc-36c1b7985c63)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/29f67a0d-cdfb-41bc-ba0a-5aa0b4aaac8a/5bbd1953-7267-4309-b0ba-8f53aececbed/image.png)
+![image](https://github.com/user-attachments/assets/fc42c649-15d6-4fcb-8adb-2b097c10062f)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/29f67a0d-cdfb-41bc-ba0a-5aa0b4aaac8a/2e05ffec-ee36-4938-b150-cd0ae2e960f9/image.png)
+![image](https://github.com/user-attachments/assets/3b2fe231-52a2-4c0c-9c5e-a1f897f179d8)
+
 
 - JavaScript
   - 최근 검색 엔진들은 JavaScript에 의해 동적으로 생성한 페이지 타이틀도 모두 잘 크롤링하고 있음
-- 요약 정리
+<hr/>
+
+### 요약 정리
   - 본문을 가장 잘 설명하는 **키워드 중식으로**
   - 페이지마다 **구체적**이고 **교유한** 키워드 사용
   - 페이지마다 반복하는 키워드 최소화
   - 구체적인 키워드를 앞으로 배치
   - 가능한 짧게
 
-### 메타 데이터 (Metadata)
+<br/>
+<br/>
+
+# 메타 데이터 (Metadata)
 
 - 데이터에 대한 데이터로 어떤 목적을 가지고 만들어진 데이터
 
@@ -75,4 +82,5 @@
 
 - 구글에 실제 검색되는 화면
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/29f67a0d-cdfb-41bc-ba0a-5aa0b4aaac8a/1f78f374-6278-4db8-a3bb-f837e26758bb/image.png)
+![image](https://github.com/user-attachments/assets/1a0546c2-c0e4-4217-b571-8c991c9d283c)
+
