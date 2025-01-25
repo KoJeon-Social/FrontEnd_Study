@@ -18,10 +18,10 @@ let age = 10;
 
 ```jsx
 // person, name : 식별자
-// 'Park JeongHwan': 데이터
+// 'Ko Eunjin': 데이터
 
 const student = {
-  name: "Park JeongHwan",
+  name: "Ko Eunjin",
 
   // 아래와 같은 경우는 데이터가 코드화, 식별자화가 될 수 있는 예시입니다.
   // 그렇기에 식별자 규칙을 따르지 않아 숫자로 시작하거나 공백을 포함할 수 있습니다.
@@ -42,7 +42,7 @@ console.log(student["2-Eng score"]);
 
 **상수**는 대문자로 작성한다.
 
-이름이 긴 경우 단어와 단어를 구분하기 위해 **카멜 케이스(Camel case)**와 **스네이크 케이스(Snake case)**와 같은 방법을 사용한다.
+이름이 긴 경우 단어와 단어를 구분하기 위해 **카멜 케이스(Camel case)** 또는 **스네이크 케이스(Snake case)** 와 같은 방법을 사용한다.
 
 - 카멜 케이스(Camel case)
   ```jsx
