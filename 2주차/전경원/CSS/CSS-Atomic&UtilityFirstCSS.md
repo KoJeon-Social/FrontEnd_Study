@@ -2,7 +2,8 @@
 
 - CSS 선언 컨셉 중 하나로 대표적으로 Tailwind CSS가 있고 아래와 같이 사용한다
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/29f67a0d-cdfb-41bc-ba0a-5aa0b4aaac8a/adb226c3-6590-420c-9f87-33b2263acc58/image.png)
+![image](https://github.com/user-attachments/assets/297ec5df-28aa-4288-ace4-408406c75bbe)
+
 
 ### 예시
 
@@ -15,7 +16,7 @@
 ```
 
 - 버튼이라는 클래스 하나를 디자인하기 위해서 유틸리티 클래스들을 위와 같이 여러 개 집어넣어서 조합하는 방식으로 디자인을 완성할 수 있다.
-  > 이런 형식으로 HTML의 유틸리티 클래스를 사용하게 되면 HTML과 CSS의 연결은 굉장히 강력해진다. 그래서 HTML을 작성하는 사람이 반드시 CSS 개발도 같이 진행해야 한다.
+> 이런 형식으로 HTML의 유틸리티 클래스를 사용하게 되면 HTML과 CSS의 연결은 굉장히 강력해진다. 그래서 HTML을 작성하는 사람이 반드시 CSS 개발도 같이 진행해야 한다.
 
 ### 특징
 
