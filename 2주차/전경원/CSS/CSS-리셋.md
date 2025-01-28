@@ -1,21 +1,26 @@
-- CSS-리셋
-  # CSS 리셋
+# CSS 리셋
   - 각 브라우저마다 HTML 요소에 설정 되어 있는 기본 스타일이 존재하고 스타일이 다 조금씩 다르다. 이는 크로스 브라우징을 방해하기 때문에 이러한 점을 개선하기 위해 **CSS 스타일 속성을 초기화** 시키는 것이다.
-  ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/29f67a0d-cdfb-41bc-ba0a-5aa0b4aaac8a/145c173d-17f5-4e32-afea-5367acef356d/image.png)
-  ### 크로스 브라우징 (Cross Browsing)
+
+![image](https://github.com/user-attachments/assets/603da654-333d-4013-9655-826971b6c462)
+
+# 크로스 브라우징 (Cross Browsing)
   - 웹 표준 기술을 사용하여 다른 기종/플랫폼/브라우저에 따라 어느 한쪽에 최적화되어 치우치지 않도록 공통 요소를 사용하여 웹 페이지를 제작하는 기법
   - 즉, 어느 브라우저 또는 기기에서 웹 사이트가 동일하게 보여지고 작동되도록 하는 기법입니다.
-  ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/29f67a0d-cdfb-41bc-ba0a-5aa0b4aaac8a/2672a508-6200-430d-89d8-19c5ea8c772e/image.png)
-  ### CSS 리셋 방법
-  - reset.css
-    - HTML 파일에 link 태그를 이용한 적용 방법
+
+![image](https://github.com/user-attachments/assets/05fbd26c-2546-419c-8c63-e9c02016f280)
+
+# CSS 리셋 방법
+### reset.css
+  - HTML 파일에 link 태그를 이용한 적용 방법
+    
     ```html
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
     />
     ```
-    - css 파일에 직접 적용 방법
+- css 파일에 직접 적용 방법
+  
     ```css
     /* http://meyerweb.com/eric/tools/css/reset/
        v2.0 | 20110126
@@ -147,7 +152,7 @@
       border-spacing: 0;
     }
     ```
-  - normalize.css
+### normalize.css
     - HTML 파일에 link 태그를 이용한 적용 방법
     ```html
     <link
@@ -509,8 +514,9 @@
       display: none;
     }
     ```
-  ### reset.css와 normalize.css의 차이점
+# reset.css와 normalize.css의 차이점
   - reset.css : 완전히 백지 상태로 초기화 시켜 사용하는 스타일 시트
   - normalize.css : 기존의 브라우저 별 스타일을 모두 리셋시키는 방법이 아닌, 이를 유지하고 이용하려는 스타일 시트
-  ### CSS 리셋의 문제점
+
+# CSS 리셋의 문제점
   - reset 스타일 시트와 normalize 스타일 시트의 경우 현재 시점엣 굳이 선언하지 않아도 되는 스타일이 대부분이다. 그래서 Unused CSS, Overridden CSS가 발생한다. 즉, 사용되지 않거나 또는 그냥 덮어쓰기 되어 버리는 그런 스타일들이 생기는 것이다.
