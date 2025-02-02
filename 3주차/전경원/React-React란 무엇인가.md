@@ -60,7 +60,7 @@ const element = (
 
 컴포넌트의 수명은 보통 페이지에서 렌더링되기 전인 준비과정에서 시작하여 페이지에서 사라질 때 끝이난다.
 
-![image.png](attachment:32b6ce60-5d5e-4710-89d8-a38bd3fe0276:image.png)
+![image](https://github.com/user-attachments/assets/7ce19bb1-42f2-44b0-91c3-b6f1d840f234)
 
 # 리액트의 장단점
 
