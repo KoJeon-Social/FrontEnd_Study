@@ -12,9 +12,7 @@ const EnhancedComponent = higherOrderComponent(WrappedComponent);
 
 컴포넌트는 props를 UI로 변환하는 반면에 고차 컴포넌트는 컴포넌트를 새로운 컴포넌트로 변환한다.
 
-### 예시
-
----
+## 예시
 
 ```jsx
 import React, { useEffect, useState } from "react";
