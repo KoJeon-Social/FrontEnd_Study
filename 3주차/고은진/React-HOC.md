@@ -4,7 +4,7 @@
 
 ## 고차 컴포넌트(HOC)란?
 
-**고차 컴포넌트(HOC, Higher Order Component)**는 컴포넌트 로직을 재사용하기 위한 React 기술 중 하나다. 이는 React API의 일부가 아니며 React의 구성적 특성에서 나오는 패턴이다. **고차 컴포넌트는 컴포넌트를 가져와 새 컴포넌트를 반환하는 함수다.**
+**고차 컴포넌트(HOC, Higher Order Component)** 는 컴포넌트 로직을 재사용하기 위한 React 기술 중 하나다. 이는 React API의 일부가 아니며 React의 구성적 특성에서 나오는 패턴이다. **고차 컴포넌트는 컴포넌트를 가져와 새 컴포넌트를 반환하는 함수다.**
 
 ```jsx
 const EnhancedComponent = higherOrderComponent(WrappedComponent);
