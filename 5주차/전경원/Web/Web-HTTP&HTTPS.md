@@ -1,0 +1,25 @@
+# HTTP&HTTPS
+
+**HTTP**는 Hyper Text Transfer Protocol의 약자로 인터넷 상의 커뮤니케이션에 사용되는 형식들 중 하나이다. 여기에 보안 기능을 추가한 것이 **HTTPS(HRRP + Secure)**이다.
+
+![image.png](attachment:9fb8b9fe-4bd5-4256-9606-fc25f4ddf6a1:image.png)
+
+# HTTP 메시지 포멧
+
+![image.png](attachment:d8bfc729-a5ed-49c6-b562-cf029d62cd1b:image.png)
+
+**HTTP**는 텍스트 기반의 통신 규약으로 인터넷에서 데이터를 주고 받을 수 있는 프로토콜이다.
+
+# HTTPS와 HTTP의 차이점
+
+1. 사용자가 웹 사이트에 보내는 정보들을 제 3자가 못 보게 한다.
+
+![image.png](attachment:32711a0e-3ce6-4076-994e-1c0647890359:image.png)
+
+- HTTP의 경우 사용자가 로그인 폼에 아이디와 비밀번호를 입력하고 로그인 버튼을 누르면 이 두 정보가 인터넷을 타고 서버로 전송될 때 이 암호가 입력한 텍스트 그대로, 누구든 알아볼 수 있는 형식으로 보내진다. 이는 제 3자에게 사용자의 정보가 유출될 수 있다. 그러나 HTTPS의 경우는 이 비밀번호 정보를 허가된 서버에서만 알아볼 수 있는 암호화된 텍스트로 변경해서 전송된다.
+
+1. 사용자가 접속한 사이트가 신뢰할 수 있는 사이트인지 판별해준다.
+
+![image.png](attachment:3befc9ca-f0df-43fd-9e35-0ac8b32749d4:image.png)
+
+- 기관으로부터 검증된 사이트만 주소에 HTTPS 사용이 허가되기 때문에 피싱 사이트를 걸러낼 수 있게 해준다.
