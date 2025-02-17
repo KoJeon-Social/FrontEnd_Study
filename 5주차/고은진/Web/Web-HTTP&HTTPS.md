@@ -4,7 +4,7 @@
 
 ## HTTP와 HTTPS
 
-**HTTP**는 **Hyper Text Transfer Protocol**의 약자로 인터넷상의 커뮤니케이션에 사용되는 형식들 중 하나다. 여기에 보안 기능을 추가한 것이 **HTTPS(HTTP + Secure)**다.
+**HTTP**는 **Hyper Text Transfer Protocol**의 약자로 인터넷상의 커뮤니케이션에 사용되는 형식들 중 하나다. 여기에 보안 기능을 추가한 것이 **HTTPS(HTTP + Secure)** 다.
 
 <br />
 
