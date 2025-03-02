@@ -4,7 +4,7 @@
 
 정점 집합과 간선 집합으로 표현할 수 있다.
 
-![image.png](attachment:dedd1812-40ae-4472-9215-5eb904201e0a:image.png)
+![image](https://github.com/user-attachments/assets/fc75adc8-bf27-4b7d-874a-f84e66625b5d)
 
 - 정점은 여러 개의 간선을 가질 수 있다.
 - 크게 방향 그래프와 무방향 그래프로 나눌 수 있다.
