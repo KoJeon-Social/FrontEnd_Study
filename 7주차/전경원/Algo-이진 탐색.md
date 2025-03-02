@@ -2,7 +2,7 @@
 
 **이진 탐색(Binary Search)**는 정렬 되어있는 요소들을 반씩 제외하며 찾는 알고리즘이다.
 
-![image.png](attachment:dce2ef10-01f2-4974-be6b-b26395a11ca1:image.png)
+![image](https://github.com/user-attachments/assets/9a5f4cc6-7718-43a0-9a20-61105d6e2706)
 
 > O(log n) 만큼 시간 복잡도가 걸린다.
 
